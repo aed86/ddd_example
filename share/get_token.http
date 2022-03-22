@@ -1,0 +1,16 @@
+# curl --location --request POST 'http://localhost/authentication_token'
+#--header 'Content-Type: application/json'
+#--data-raw '{
+#    "email": "test@gmail.com",
+#    "password": "test"
+#}'
+POST http://localhost/authentication_token
+Content-Type: application/json
+
+{
+  "email": "test@gmail.com",
+  "password": "test"
+}
+
+###
+

@@ -1,0 +1,19 @@
+gift_controllers:
+    resource: ../src/Core/Gift/Application/Controller/
+    type: annotation
+
+employee_controllers:
+    resource: ../src/Core/Employee/Application/Controller/
+    type: annotation
+
+api_login_check:
+    path: /api/login_check
+
+authentication_token:
+    path: /authentication_token
+    methods: ['POST']
+
+kernel:
+    resource: ../src/Kernel.php
+    type: annotation
+
